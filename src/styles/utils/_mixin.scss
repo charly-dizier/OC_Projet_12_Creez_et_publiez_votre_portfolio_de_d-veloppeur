@@ -1,0 +1,27 @@
+// Flex
+@mixin flex {
+    display: flex;
+}
+@mixin column {
+    flex-direction: column;
+}
+@mixin item-center {
+    align-items: center;
+}
+@mixin content-center {
+    justify-content: center;
+}
+// Combine
+@mixin flex-column {
+    @include flex;
+    @include column
+}
+@mixin flex-item {
+    @include flex;
+    @include item-center
+}
+@mixin flex-column-item {
+    @include flex-item;
+    @include column
+}
+

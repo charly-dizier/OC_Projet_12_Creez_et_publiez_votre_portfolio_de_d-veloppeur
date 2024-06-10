@@ -1,0 +1,10 @@
+.home {
+    color: rgb(154, 154, 154);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    @include roboto-regular;
+    
+}

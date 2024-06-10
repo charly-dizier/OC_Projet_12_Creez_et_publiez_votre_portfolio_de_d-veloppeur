@@ -1,0 +1,26 @@
+.bio {
+    height: 70vw;
+    width: 100vw;
+    padding-top: 80px;
+    background: rgb(0,0,0);
+    background: linear-gradient(167deg, rgba(0,0,0,1) 40%, rgba(0,37,82,1) 100%);
+    &_txt {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // justify-items: center;
+        margin: auto;
+        max-width: 1440px;
+        background-color: rgb(71, 71, 71);
+        border-radius: 16px;
+        padding: 20px;
+        margin-top: 80px;
+        &-title {
+            @include montserrat-bold;
+            font-size: 2rem;
+            }
+            &-txt {
+            margin-top: 20px;
+        }
+    }
+}
