@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "HTML",
+        "alt": "icon HTML",
+        "icon": "./icons/html.png"
+    },
+    {
+        "id": 2,
+        "title": "CSS",
+        "alt": "icon CSS",
+        "icon": "./icons/css.png"
+    },
+    {
+        "id": 3,
+        "title": "Sass",
+        "alt": "icon Sass",
+        "icon": "./icons/scss.png"
+    },
+    {
+        "id": 4,
+        "title": "JS",
+        "alt": "icon JS",
+        "icon": "./icons/js.png"
+    },
+    {
+        "id": 5,
+        "title": "React",
+        "alt": "icon React",
+        "icon": "./icons/react.png"
+    },
+    {
+        "id": 6,
+        "title": "Redux",
+        "alt": "icon Redux",
+        "icon": "./icons/redux.png"
+    },
+    {
+        "id": 7,
+        "title": "Figma",
+        "alt": "icon Figma",
+        "icon": "./icons/figma.png"
+    },
+    {
+        "id": 8,
+        "title": "Github",
+        "alt": "icon Github",
+        "icon": "./icons/github.png"
+    },
+    {
+        "id": 9,
+        "title": "SEO",
+        "alt": "icon SEO",
+        "icon": "./icons/seo.png"
+    },
+    {
+        "id": 10,
+        "title": "Agile",
+        "alt": "icon Agile",
+        "icon": "./icons/agile.png"
+    }
+]

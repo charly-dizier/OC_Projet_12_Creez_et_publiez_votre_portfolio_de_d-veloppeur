@@ -1,16 +1,31 @@
+import bio from '../../assets/img/bio.png';
+
 function Bio() {
     return (
         <section className="bio" id="bio">
-            <div className="bio_txt">
-                <h2 className="bio_txt-title">Bienvenue !</h2>
-                <p className="bio_txt-txt">Après une quinzaine d'années dans le monde de la vente, le temsp de voir de nouveaux horizon était arrivé !<br /> 
-                Gravitant dans le monde de l'informatique a titre personnel et ludique depuis mon enfance, j'ai entrepris d'allier passion et vie professionnel en effectuant une reconvertion dans le web. <br />
-                Après une première formation d'Integrateur Web débouchaqnt sur un titre RNCP de niveau 5 (bac +2) au coté d'OpenclassRomm, 
-                mon prochain projet sera une nouvelle formation. Cette fois ci de Developpeur Application React   </p>
+            <div className="bio_id">
+                <div className="bio_id-title">
+                    <h1>Charly Dizier</h1>
+                    <h2>Developpeur Web</h2>
+                    {/* <p>Bienvenue sur mon portfolio</p> */}
+                </div>
+                <div className="bio_id-img">
+                    <img src={bio} alt="portai"></img>
+                </div>
             </div>
+            <div className="bio_title">
+                <h2>Bienvenue sur mon portfolio</h2>
 
+            </div>
+            <div className="bio_txt">
+                <p>Après plus de dix ans de vie professionnel dans le secteur de la vente, j'ai décidé qu'il était temps pour moi d'explorer de nouveau horizons.</p>
+                <p>Gravitant dans le monde de l'informatique, à titre personnel et ludique depuis mon enfance, j'ai entrepris de transformer cette passion en carrière professionnel en me reconvertissant dans le développement web.</p>
+                <p>Au coté d'OpenclassRoom, j'ai suivi une formation d'Intégrateur Web aboutissant sur un titre RNCP de niveau 5 (équivalent BAC +2).</p>
+                <p>Fort de cette expérience, je me lance un nouveau défis: une formation de Developpeur d'Application React (RNCP niveau 6, équivalent BAC+3/4). </p>
+            </div>
         </section>
     )
 }
+
 
 export default Bio

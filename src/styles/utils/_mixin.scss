@@ -24,4 +24,8 @@
     @include flex-item;
     @include column
 }
+@mixin flex-item-content {
+    @include flex-item;
+    @include content-center;
+}
 

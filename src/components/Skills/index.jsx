@@ -1,20 +1,21 @@
+import IconSkills from "../IconSkills";
 
+import data from "../../utils/data/skill.json"
 
 function Skills() {
     return (
         <section className="skills">
-            <p>Section Skills</p>
-            <div>
-                <p>Icon HTML</p>
-                <p>Icon CSS</p>
-                <p>Icon Sass</p>
-                <p>Icon JS</p>
-                <p>Icon React</p>
-                <p>Icon Redux</p>
-                <p>Icon Git</p>
-                <p>Icon Figma</p>
-                <p>Icon SEO</p>
-                <p>Icon Agiles</p>
+            <div className="skills_container">      
+                {data.map((data) => {
+                    return (
+                        <IconSkills 
+                            key={data.id}
+                            title={data.title}
+                            icon={data.icon}
+                            alt={data.alt} 
+                        />
+                    )
+                })}
             </div>
         </section>
     )

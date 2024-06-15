@@ -1,16 +1,38 @@
 .skills {
-    height: 40vw;
+    @include glow-shadows;
+    @include flex-item-content;
+    height: 100%;
     width: 100vw;
-    padding-top: 60px;
-    background-color: black;
-    // margin: 50px;
-    padding: 50px;
-    // background: rgb(0,0,0);
-    // background: linear-gradient(194deg, rgba(0,0,0,1) 40%, rgba(0,37,82,1) 100%);
-}
-
-
-.fa-brands {
-    color: aqua;
-    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 80px 0px;
+    
+    &_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 50px 50px;
+        // background-color: aqua;
+        max-width: 1440px;
+    }
+    &_icon {
+        @include flex-item-content;
+        border-radius: 20px;
+        gap: 25px;
+        min-height: 80px;
+        min-width: 200px;
+        border: 1px solid black;
+        transition: transform .2s;
+        &:hover {
+            @include glow-shadows;
+            cursor: pointer;
+            transform: scale(1.5);
+        }
+        & img {
+            width: 40px;
+        }
+        & p {
+            @include montserrat-regular;
+            color: white;
+            font-size: 1.2rem;
+        }
+    }
 }

@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "title": "ohmyfood",
+        "image": "./imgs/ohmyfood.webp",
+        "icons": ["./icons/css.png", "./icons/scss.png"],
+        "links": [
+            {
+                "url": "https://github.com/charly-dizier/OC_Projet_4_Ameliorez_l-interface_d-un_site_mobile_avec_des_animations_CSS",
+                "icon": "./icons/github.png"
+            },
+            {
+                "url": "https://charly-dizier.github.io/OC_Projet_4_Ameliorez_l-interface_d-un_site_mobile_avec_des_animations_CSS/index.html",
+                "icon": "./icons/figma.png"
+            }
+        ],
+        "description": "Améliorez l'interface d'un site mobile avec des animations CSS. utilisation de Sass. "
+    },
+    {
+        "id": 2,
+        "title": "Print it!",
+        "image": "./imgs/print-it.webp",
+        "icons": ["./icons/js.png"],
+        "links": [
+            {
+                "url": "https://github.com/charly-dizier/OC_Projet_5_Premiers_pas_sur_le_langage_JavaScript",
+                "icon": "./icons/github.png"
+            },
+            {
+                "url": "https://charly-dizier.github.io/OC_Projet_5_Premiers_pas_sur_le_langage_JavaScript/",
+                "icon": "./icons/figma.png"
+            }
+        ],
+        "description": "Premiers pas sur le langage JavaScript. "
+    },
+    {
+        "id": 3,
+        "title": "Sophie Bluel",
+        "image": "./imgs/sophie-bluel.webp",
+        "icons": ["./icons/scss.png", "./icons/js.png", "./icons/api.png"],
+        "links": [
+            {
+                "url": "https://github.com/charly-dizier/OC_Projet_6_Creez_une_page_web_dynamique_avec_JavaScript",
+                "icon": "./icons/github.png"
+            }
+        ],
+        "description": "Créez une page web dynamique avec JavaScript. API "
+    },
+    {
+        "id": 4,
+        "title": "Kasa",
+        "image": "./imgs/kasa.webp",
+        "icons": ["./icons/scss.png", "./icons/js.png", "./icons/react.png"],
+        "links": [
+            {
+                "url": "https://github.com/charly-dizier/OC_Projet_8_Creez_une_application_web_de_location_immobiliere_avec_React",
+                "icon": "./icons/github.png"
+            }
+        ],
+        "description": "Créez une application web de location immobilière avec React."
+    },
+    {
+        "id": 5,
+        "title": "Nina Carducci",
+        "image": "./imgs/nina-carducci.webp",
+        "icons": ["./icons/seo.png", "./icons/lighthouse.png", "./icons/wave.png"],
+        "links": [
+            {
+                "url": "https://github.com/charly-dizier/OC_Projet_9_Optimisez_le_referencement_d-un_site_de_photographe",
+                "icon": "./icons/github.png"
+            },
+            {
+                "url": "https://charly-dizier.github.io/OC_Projet_9_Optimisez_le_referencement_d-un_site_de_photographe/",
+                "icon": "./icons/figma.png"
+            }
+        ],
+        "description": "Optimisez le référencement d'un site de photographe. Audit Rich Snippet. Extension Wave. Rapport Lighthouse"
+    },
+    {
+        "id": 6,
+        "title": "724 Events",
+        "image": "./imgs/724-events.webp",
+        "icons": ["./icons/react.png", "./icons/react-dev-tool.png", "./icons/jest.png"],
+        "links": [
+            {
+                "url": "https://github.com/charly-dizier/OC_Projet_10_Debuggez_le_site_d-une_agence_d-evenementiel",
+                "icon": "./icons/github.png"
+            }
+        ],
+        "description": "Débuggez le site d'une agence d'événementiel."
+    },
+    {
+        "id": 7,
+        "title": "Argent Bank",
+        "image": "./imgs/argent-bank.webp",
+        "icons": ["./icons/react.png", "./icons/redux.png", "./icons/swagger.png"],
+        "links": [
+            {
+                "url": "https://github.com/charly-dizier/OC_Projet_11_Implementez_le_front-end_d-une_application_bancaire_avec_React",
+                "icon": "./icons/github.png"
+            }
+        ],
+        "description": "Implémentez le front-end d'une application bancaire avec React."
+    }
+]
