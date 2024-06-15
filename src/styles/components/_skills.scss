@@ -1,4 +1,6 @@
 .skills {
+    flex-direction: column;
+    gap: 80px;
     @include glow-shadows;
     @include flex-item-content;
     height: 100%;
@@ -18,13 +20,13 @@
         border-radius: 20px;
         gap: 25px;
         min-height: 80px;
-        min-width: 200px;
+        min-width: 180px;
         border: 1px solid black;
         transition: transform .2s;
         &:hover {
             @include glow-shadows;
             cursor: pointer;
-            transform: scale(1.5);
+            transform: scale(1.3);
         }
         & img {
             width: 40px;
@@ -32,7 +34,7 @@
         & p {
             @include montserrat-regular;
             color: white;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
     }
 }

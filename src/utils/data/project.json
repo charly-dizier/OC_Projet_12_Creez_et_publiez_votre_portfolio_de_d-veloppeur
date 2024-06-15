@@ -18,23 +18,6 @@
     },
     {
         "id": 2,
-        "title": "Print it!",
-        "image": "./imgs/print-it.webp",
-        "icons": ["./icons/js.png"],
-        "links": [
-            {
-                "url": "https://github.com/charly-dizier/OC_Projet_5_Premiers_pas_sur_le_langage_JavaScript",
-                "icon": "./icons/github.png"
-            },
-            {
-                "url": "https://charly-dizier.github.io/OC_Projet_5_Premiers_pas_sur_le_langage_JavaScript/",
-                "icon": "./icons/figma.png"
-            }
-        ],
-        "description": "Premiers pas sur le langage JavaScript. "
-    },
-    {
-        "id": 3,
         "title": "Sophie Bluel",
         "image": "./imgs/sophie-bluel.webp",
         "icons": ["./icons/scss.png", "./icons/js.png", "./icons/api.png"],
@@ -47,7 +30,7 @@
         "description": "Créez une page web dynamique avec JavaScript. API "
     },
     {
-        "id": 4,
+        "id": 3,
         "title": "Kasa",
         "image": "./imgs/kasa.webp",
         "icons": ["./icons/scss.png", "./icons/js.png", "./icons/react.png"],
@@ -60,7 +43,7 @@
         "description": "Créez une application web de location immobilière avec React."
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Nina Carducci",
         "image": "./imgs/nina-carducci.webp",
         "icons": ["./icons/seo.png", "./icons/lighthouse.png", "./icons/wave.png"],
@@ -77,7 +60,7 @@
         "description": "Optimisez le référencement d'un site de photographe. Audit Rich Snippet. Extension Wave. Rapport Lighthouse"
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "724 Events",
         "image": "./imgs/724-events.webp",
         "icons": ["./icons/react.png", "./icons/react-dev-tool.png", "./icons/jest.png"],
@@ -90,7 +73,7 @@
         "description": "Débuggez le site d'une agence d'événementiel."
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Argent Bank",
         "image": "./imgs/argent-bank.webp",
         "icons": ["./icons/react.png", "./icons/redux.png", "./icons/swagger.png"],

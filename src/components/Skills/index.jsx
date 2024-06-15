@@ -1,10 +1,10 @@
 import IconSkills from "../IconSkills";
-
 import data from "../../utils/data/skill.json"
 
 function Skills() {
     return (
-        <section className="skills">
+        <>
+        <h2>Skills</h2>
             <div className="skills_container">      
                 {data.map((data) => {
                     return (
@@ -17,7 +17,7 @@ function Skills() {
                     )
                 })}
             </div>
-        </section>
+        </>
     )
 }
 

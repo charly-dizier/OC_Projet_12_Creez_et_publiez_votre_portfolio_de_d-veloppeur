@@ -6,17 +6,13 @@ function Bio() {
             <div className="bio_id">
                 <div className="bio_id-title">
                     <h1>Charly Dizier</h1>
-                    <h2>Developpeur Web</h2>
-                    {/* <p>Bienvenue sur mon portfolio</p> */}
+                    <h3>Developpeur Web</h3>
                 </div>
                 <div className="bio_id-img">
                     <img src={bio} alt="portai"></img>
                 </div>
             </div>
-            <div className="bio_title">
-                <h2>Bienvenue sur mon portfolio</h2>
-
-            </div>
+            <h2>Bienvenue sur mon portfolio</h2>
             <div className="bio_txt">
                 <p>Après plus de dix ans de vie professionnel dans le secteur de la vente, j'ai décidé qu'il était temps pour moi d'explorer de nouveau horizons.</p>
                 <p>Gravitant dans le monde de l'informatique, à titre personnel et ludique depuis mon enfance, j'ai entrepris de transformer cette passion en carrière professionnel en me reconvertissant dans le développement web.</p>
@@ -26,6 +22,5 @@ function Bio() {
         </section>
     )
 }
-
 
 export default Bio

@@ -1,7 +1,7 @@
 import Bio from "../../components/Bio"
-import Contact from "../../components/Contact"
 import Skills from "../../components/Skills"
 import Projet from "../../components/Projet"
+import Contact from "../../components/Contact"
 
 function Home() {
     return (
@@ -9,13 +9,13 @@ function Home() {
             <section id="bio">
                 <Bio />
             </section>
-            <section id="skills">
+            <section id="skills" className="skills">
                 <Skills />
             </section>
             <section id="projet">
                 <Projet />
             </section>
-            <section id="contact">
+            <section id="contact" className="contact">
                 <Contact />
             </section>
         </div>

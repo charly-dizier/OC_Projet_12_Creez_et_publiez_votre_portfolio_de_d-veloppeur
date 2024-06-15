@@ -1,7 +1,4 @@
-
-
 function IconSkills({ title, alt, icon}) {
-    
 
     return (
         <div className="skills_icon">

@@ -8,13 +8,7 @@
     justify-content: center;
     padding: 80px 0px;
     border: 1px solid rgb(255, 255, 255);
-    // gap: 50px;
-    &_title {
-        @include montserrat-bold;
-        font-size: 2.5rem;
-        color: white;
-        margin-bottom: 80px;
-    }
+    gap: 80px;
     &_card {
         max-width: 1440px;
         // background-color: burlywood;
