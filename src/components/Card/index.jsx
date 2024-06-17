@@ -1,38 +1,33 @@
-// import { Link } from 'react-router-dom'
-
-function Card({ data }) {
+function Card({ project, onClick }) {
+    
+    const handleCardClick = () => {
+        onClick(project);
+    };
 
     return (
-        <div className="card">
-            <div className="card_img">
-                <img src={data.image} alt={data.title} />
+        <div className="card" onClick={handleCardClick}>
+            <div className="card__image">
+                <img src={project.image} alt={`Illustration du site ${project.title}`} />
             </div>
-            <div className="card_txt">
-                <div className="card_txt_head">
-                    <div className="card_txt_head-title">
-                        <h3>{data.title}</h3>
-                        {/* <div className="card_txt_head-links">
-                            {data.links.map((link, id) => (
-                                <Link key={id} to={link.url} target="_blank">
-                                    <img className='card_txt_head-links-icon' src={link.icon} alt="Icon de lien" />
-                                </Link>
-                            ))}
-                        </div>  */}
+            <div className="card__content">
+                <div className="card__header">
+                    <div className="card__title">
+                        <h3>{project.title}</h3>
                     </div>
-                    <ul className="card_txt_head-iconSkills">
-                        {data.icons.map((icon, id) => (
+                    <ul className="card__icon-list">
+                        {project.icons.map((icon, id) => (
                             <li key={id}>
                                 <img src={icon} alt={`Icon ${id}`} />
                             </li>
                         ))}
                     </ul>
                 </div>
-                <div className="card_txt_desc">
-                    <p>{data.description}</p>
+                <div className="card__description">
+                    <p>{project.description}</p>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Card
+export default Card;

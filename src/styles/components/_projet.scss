@@ -1,4 +1,4 @@
-.projet {
+.projects {
     width: 100vw;    
     background: rgb(0,0,0);
     background: linear-gradient(23deg, rgba(0,0,0,1) 50%, rgba(0,37,82,1) 100%);
@@ -9,13 +9,10 @@
     padding: 80px 0px;
     border: 1px solid rgb(255, 255, 255);
     gap: 80px;
-    &_card {
+    &__cards {
         max-width: 1440px;
-        // background-color: burlywood;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        // justify-content: center;
-        // align-items: center;
         gap: 80px;
     }
 }

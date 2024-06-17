@@ -6,7 +6,7 @@ function Bio() {
             <div className="bio_id">
                 <div className="bio_id-title">
                     <h1>Charly Dizier</h1>
-                    <h3>Developpeur Web</h3>
+                    <h2>Developpeur Web</h2>
                 </div>
                 <div className="bio_id-img">
                     <img src={bio} alt="portai"></img>

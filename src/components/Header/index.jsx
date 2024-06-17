@@ -1,12 +1,9 @@
 import { HashLink as NavLink } from 'react-router-hash-link';
 
-
-
 function Header() {
 
     return (
         <header className="header">
-
             <div className="header-container">
                 <div className="header_logo">
                     <NavLink className='header_logo-link' smooth to="/#home">

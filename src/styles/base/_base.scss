@@ -6,10 +6,19 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
+    color: white;
     & h2 {
         @include montserrat-bold;
-        color: white;
         font-size: 3rem;
+    }
+    & h3 {
+        @include roboto-bold;
+    }
+    & h4 {
+        @include roboto-regular;
+    }
+    & li {
+        list-style: none;
     }
 }
 

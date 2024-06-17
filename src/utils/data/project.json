@@ -14,7 +14,8 @@
                 "icon": "./icons/figma.png"
             }
         ],
-        "description": "Améliorez l'interface d'un site mobile avec des animations CSS. utilisation de Sass. "
+        "description": "Améliorez l'interface d'un site mobile avec des animations CSS. utilisation de Sass. ",
+        "descriptionModal": "bla bla bla"
     },
     {
         "id": 2,
@@ -27,7 +28,8 @@
                 "icon": "./icons/github.png"
             }
         ],
-        "description": "Créez une page web dynamique avec JavaScript. API "
+        "description": "Créez une page web dynamique avec JavaScript. API ",
+        "descriptionModal": "bla bla bla"
     },
     {
         "id": 3,
@@ -40,7 +42,8 @@
                 "icon": "./icons/github.png"
             }
         ],
-        "description": "Créez une application web de location immobilière avec React."
+        "description": "Créez une application web de location immobilière avec React.",
+        "descriptionModal": "bla bla bla"
     },
     {
         "id": 4,
@@ -57,7 +60,19 @@
                 "icon": "./icons/figma.png"
             }
         ],
-        "description": "Optimisez le référencement d'un site de photographe. Audit Rich Snippet. Extension Wave. Rapport Lighthouse"
+        "description": "Optimisez le référencement d'un site de photographe. Audit Rich Snippet. Extension Wave. Rapport Lighthouse",
+        "titleModal": "Projet n°9 du parcour Intégrateur Web d'OpenclassRoom.",
+        "descriptionModal": "Pour le scénario de se projet, nous étions concidéré comme développeur freelance proposant nos services d'optimisation SEO.\n",
+        "missionsModal": [
+            "Réaliser un audit du site avec Lighthouse et GTMetrix.\nDéceler les différences problèmes de chargement et référencement.\nIdentifier les premier axes d’amélioration.\nLe but principal étant d'avoir une vision claire des éléments du projet.",
+            "Travaill d'optimisation sur les images, la sémantique, la compression des fichier CSS et JS",
+            "Mise en place du référencement local et réseaux sociaux à la demande de la cliente.\nRapport Rich Snippet Google avec les informations de la cliente. (microdonnées au format Schema.org).\nBalises meta liées aux principaux réseaux sociaux (OpenGraph pour facebook, Twitter Cards)",
+            "Correction de l'accessibilité en utilisant l'extension WAVE Evaluation Tool.",
+            "Rédaction d'un rapport d'optimisation listant et décrivant les résultat avant et apres optimisation."
+        ],
+        "objectifModal": [
+            "Optimiser la performance et le référencement d'un site web"
+        ]
     },
     {
         "id": 5,
@@ -70,7 +85,8 @@
                 "icon": "./icons/github.png"
             }
         ],
-        "description": "Débuggez le site d'une agence d'événementiel."
+        "description": "Débuggez le site d'une agence d'événementiel.",
+        "descriptionModal": "bla bla bla"
     },
     {
         "id": 6,
@@ -83,6 +99,7 @@
                 "icon": "./icons/github.png"
             }
         ],
-        "description": "Implémentez le front-end d'une application bancaire avec React."
+        "description": "Implémentez le front-end d'une application bancaire avec React.",
+        "descriptionModal": "bla bla bla"
     }
 ]
