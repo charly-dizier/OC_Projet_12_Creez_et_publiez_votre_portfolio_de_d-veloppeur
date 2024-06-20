@@ -12,10 +12,10 @@
         font-size: 3rem;
     }
     & h3 {
-        @include roboto-bold;
+        @include montserrat-bold;
     }
     & h4 {
-        @include roboto-regular;
+        @include montserrat-bold;
     }
     & li {
         list-style: none;

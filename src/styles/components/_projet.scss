@@ -14,5 +14,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 80px;
+        @include bp-1400 {
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }

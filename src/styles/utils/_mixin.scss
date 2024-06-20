@@ -29,3 +29,14 @@
     @include content-center;
 }
 
+// Breakpoint
+@mixin bp-1400 {
+    @media screen and (max-width: 1400px) {
+        @content;
+    }
+}
+@mixin bp-1000 {
+    @media screen and (max-width: 1000px) {
+        @content;
+    }
+}

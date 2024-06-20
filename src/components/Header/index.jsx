@@ -14,10 +14,10 @@ function Header() {
                     <NavLink className="header_nav-link" smooth to="/#bio">
                         <p>Biographie</p>
                     </NavLink>
-                    <NavLink className="header_nav-link" smooth to="/#skills">
+                    <NavLink className="header_nav-link" smooth to="/#navSkills">
                         <p>Skills</p>
                     </NavLink>
-                    <NavLink className="header_nav-link" smooth to="/#projet">
+                    <NavLink className="header_nav-link" smooth to="/#navProjet">
                         <p>Projet</p>
                     </NavLink>
                     <NavLink className="header_nav-link" smooth to="/#contact">

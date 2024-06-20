@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "title": "ohmyfood",
+        "title": "Ohmyfood",
         "image": "./imgs/ohmyfood.webp",
-        "icons": ["./icons/css.png", "./icons/scss.png"],
+        "icons": ["./icons/scss.png","./icons/figma.png","./icons/github.png"],
         "links": [
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_4_Ameliorez_l-interface_d-un_site_mobile_avec_des_animations_CSS",
@@ -11,25 +11,54 @@
             },
             {
                 "url": "https://charly-dizier.github.io/OC_Projet_4_Ameliorez_l-interface_d-un_site_mobile_avec_des_animations_CSS/index.html",
+                "icon": "./icons/lien.png"
+            },
+            {
+                "url": "https://www.figma.com/design/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)",
                 "icon": "./icons/figma.png"
             }
         ],
-        "description": "Améliorez l'interface d'un site mobile avec des animations CSS. utilisation de Sass. ",
-        "descriptionModal": "bla bla bla"
+        "description": "Améliorez l'interface d'un site mobile avec des animations CSS.",
+        "titleModal": "Projet n°4 du parcour Intégrateur Web",
+        "descriptionModal": "Pour le scénario de se projet nous étions concidéré comme développeur junior intégrant Ohmyfood une startup souhaitant s'imposer sur le marché de la restauration.",
+        "missionsModal": [
+            "Développer un site responsive, mobile first, en respectant scrupuleusement un disign donné.",
+            "Familiarisation avec l'environnement Git et GitHub",
+            "Analyse de maquettes sur Figma.",
+            "Mise en place et utilisation du pré-processeur Sass.",
+            "Ajout d'animation modèrne. Enrichissement de l'expérience utilisateur."
+        ],
+        "objectifModal": [
+            "Intégrer une maquette en mobile-first",
+            "Mettre en œuvre des animations CSS",
+            "Versionner son projet avec Git et Github"
+        ]
     },
     {
         "id": 2,
         "title": "Sophie Bluel",
         "image": "./imgs/sophie-bluel.webp",
-        "icons": ["./icons/scss.png", "./icons/js.png", "./icons/api.png"],
+        "icons": ["./icons/node.png", "./icons/js.png", "./icons/api.jpg", "./icons/npm.png"],
         "links": [
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_6_Creez_une_page_web_dynamique_avec_JavaScript",
                 "icon": "./icons/github.png"
             }
         ],
-        "description": "Créez une page web dynamique avec JavaScript. API ",
-        "descriptionModal": "bla bla bla"
+        "description": "Créez une page web dynamique avec JavaScript.",
+        "titleModal": "Projet n°6 du parcour Intégrateur Web",
+        "descriptionModal": "Pour ce scénario, nous somme concidéré comme développeut front-end pour l'agence ArchiWebos.\nNotre venons en renfort d'une equipe travaillant sur le portfolio d'une architecte d'intérieur",
+        "missionsModal": [
+            "Création d'une page web dynamique en utilisant JavaScript et en communiquant avec une API",
+            "Gestion des événements utilisateur et manipulation du DOM",
+            "Création d'une page de connection administrateur donnant acces a des outils de gestion afin de supprimer, modifier ou ajouter de nouveaux projet via des modales",
+            "Développer from scratch afin de mettre en pratique nos compétences en JavaScript de manière approfondie"
+        ],
+        "objectifModal": [
+            "Gérez les événements utilisateurs avec JavaScript",
+            "Manipulez les éléments du DOM avec JavaScript",
+            "Récupérez les données utilisateurs dans le JavaScript via des formulaires"
+        ]
     },
     {
         "id": 3,
@@ -40,10 +69,29 @@
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_8_Creez_une_application_web_de_location_immobiliere_avec_React",
                 "icon": "./icons/github.png"
+            },
+            {
+                "url": "https://www.figma.com/design/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR?node-id=0-1",
+                "icon": "./icons/figma.png"
             }
         ],
         "description": "Créez une application web de location immobilière avec React.",
-        "descriptionModal": "bla bla bla"
+        "titleModal": "Projet n°8 du parcour Intégrateur Web",
+        "descriptionModal": "Pour le scénario de ce projet, nous étions concidéré comme développeur front-end en freelance pour Kasa, une entreprise de location d'appartement entre particuliers.",
+        "missionsModal": [
+            "Refonte complète d'un site codé il y a plus de 10 ans en ASP.NET avec code legacy important",
+            "Initialisez le projet avec Creat React App",
+            "Découpez la maquette Figma (responsive) en composant React",
+            "Mettre en place le système de route avec React Router",
+            "Ajoutez des animations modèrne sur les menus Dropdown"
+        ],
+        "objectifModal": [
+            "Développer une interface web avec Sass",
+            "Configurer la navigation entre les pages de l'application avec React Router",
+            "Développer des éléments de l'interface d'un site web grâce à des composants React",
+            "Mettre en œuvre des animations CSS",
+            "Initialiser une application avec Create React App"
+        ]
     },
     {
         "id": 4,
@@ -57,16 +105,16 @@
             },
             {
                 "url": "https://charly-dizier.github.io/OC_Projet_9_Optimisez_le_referencement_d-un_site_de_photographe/",
-                "icon": "./icons/figma.png"
+                "icon": "./icons/lien.png"
             }
         ],
-        "description": "Optimisez le référencement d'un site de photographe. Audit Rich Snippet. Extension Wave. Rapport Lighthouse",
-        "titleModal": "Projet n°9 du parcour Intégrateur Web d'OpenclassRoom.",
-        "descriptionModal": "Pour le scénario de se projet, nous étions concidéré comme développeur freelance proposant nos services d'optimisation SEO.\n",
+        "description": "Optimisez le référencement d'un site de photographe.",
+        "titleModal": "Projet n°9 du parcour Intégrateur Web",
+        "descriptionModal": "Pour le scénario de se projet, nous étions concidéré comme développeur freelance proposant nos services d'optimisation à une photographe.",
         "missionsModal": [
-            "Réaliser un audit du site avec Lighthouse et GTMetrix.\nDéceler les différences problèmes de chargement et référencement.\nIdentifier les premier axes d’amélioration.\nLe but principal étant d'avoir une vision claire des éléments du projet.",
-            "Travaill d'optimisation sur les images, la sémantique, la compression des fichier CSS et JS",
-            "Mise en place du référencement local et réseaux sociaux à la demande de la cliente.\nRapport Rich Snippet Google avec les informations de la cliente. (microdonnées au format Schema.org).\nBalises meta liées aux principaux réseaux sociaux (OpenGraph pour facebook, Twitter Cards)",
+            "Réaliser un audit du site avec Lighthouse et GTMetrix.\nDéceler les différents problèmes de chargement et référencement.\nIdentifier les axes d’amélioration.",
+            "Travail d'optimisation sur les images, la sémantique et la compression des fichier CSS et JS",
+            "Mise en place du référencement local et réseaux sociaux à la demande de la cliente.\nRapport Rich Snippet (microdonnées au format Schema.org).\nBalises meta liées aux principaux réseaux sociaux (OpenGraph pour facebook, Twitter Cards)",
             "Correction de l'accessibilité en utilisant l'extension WAVE Evaluation Tool.",
             "Rédaction d'un rapport d'optimisation listant et décrivant les résultat avant et apres optimisation."
         ],
@@ -78,7 +126,7 @@
         "id": 5,
         "title": "724 Events",
         "image": "./imgs/724-events.webp",
-        "icons": ["./icons/react.png", "./icons/react-dev-tool.png", "./icons/jest.png"],
+        "icons": ["./icons/chrome-devtools.png", "./icons/react.png", "./icons/react-devtools.png", "./icons/jest.png"],
         "links": [
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_10_Debuggez_le_site_d-une_agence_d-evenementiel",
@@ -86,13 +134,24 @@
             }
         ],
         "description": "Débuggez le site d'une agence d'événementiel.",
-        "descriptionModal": "bla bla bla"
+        "titleModal": "Projet n°10 du parcour Intégrateur Web",
+        "descriptionModal": "Pour le scénario de se projet, 724Events une agence d'évenementielle, nous contactais afin de reprendre la refonte de leur site vitrine.\nLe précédent développeur ayant abandonner le projet, un certain nombre de bug persiste",
+        "missionsModal": [
+            "Analyse du code avec Chrome DevTools afin d'identifier et compredre les problèmes et bugs",
+            "Résoudre les différentes erreurs en utilisant nos compétences en JavaScript, ainsi que des outils spécifique à React tel que React Developper Tools",
+            "Rédiger un cahier de recette détaillant les scénarios des tests unitaires et fonctionnels assurant le bon fonctionnnement du site",
+            "Création de tests unitaire et fonctionnels en utilisant l'environnement et la syntaxe Jest"
+        ],
+        "objectifModal": [
+            "Débugger un site web grâce aux Chrome DevTools",
+            "Rédiger un cahier de recette pour tester un site"
+        ]
     },
     {
         "id": 6,
         "title": "Argent Bank",
         "image": "./imgs/argent-bank.webp",
-        "icons": ["./icons/react.png", "./icons/redux.png", "./icons/swagger.png"],
+        "icons": ["./icons/react.png", "./icons/redux.png", "./icons/api.jpg", "./icons/swagger.png"],
         "links": [
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_11_Implementez_le_front-end_d-une_application_bancaire_avec_React",
@@ -100,6 +159,18 @@
             }
         ],
         "description": "Implémentez le front-end d'une application bancaire avec React.",
-        "descriptionModal": "bla bla bla"
+        "titleModal": "Projet n°11 du parcour Intégrateur Web",
+        "descriptionModal": "Pour le scénario de se projet, nous étions concidéré comme développeur intégrant Argent Bank, une nouvelle banque en ligne",
+        "missionsModal": [
+            "Installez localement le back-end de l'application avec Node.js et MongoDB",
+            "Découpez le HTML et CSS statique fournit et transposez le en une application React et Sass",
+            "Mettez en place le state global avec Redux et la connection de l'utilisateur",
+            "Phase 2: Analysez les images de la maquettes afin de déterminer les futures routes API et écrivez les différents endpoints dans un fichier Swagger"
+        ],
+        "objectifModal": [
+            "Afficher les données du back end sur l'interface via des appels API",
+            "Configurer des routes API pour la communication client / serveur",
+            "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+        ]
     }
 ]

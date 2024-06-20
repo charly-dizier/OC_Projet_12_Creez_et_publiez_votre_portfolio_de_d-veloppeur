@@ -11,7 +11,9 @@ const customStyles = {
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
         width: '80%',
-        maxWidth: '800px',
+        maxWidth: '900px',
+        // height: '90%',
+        // maxHeight: '100vw',
         backgroundColor: 'rgba(0,37,82,1)',
         borderRadius: '30px',
         border: '3px solid rgb(255, 255, 255)'
@@ -40,11 +42,22 @@ function ProjectModal({ isOpen, project, onClose }) {
             isOpen={!!project}
             onRequestClose={onClose}
             style={customStyles}
-            contentLabel="Détails du projet"
+            contentLabel="Détails du projet"  
         >
             {project && (
-                <div className="modal-content">
-                    <h3 className="modal-content__header">{project.title}</h3>
+                <div className="modal-content" onClick={onClose}>
+                    <div className="modal-content__header">
+                        <h3 className="modal-content__header-title">{project.title}</h3>
+                        <ul className="modal-content__header-link">Liens du projet :
+                            {project.links.map((link, id) => (
+                                <li key={id} className="modal-content__header-link--item"> 
+                                    <Link to={link.url} target="_blank" rel="noopener noreferrer">
+                                        <img src={link.icon} alt={`Link ${id}`} />
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
                     <img src={project.image} alt={project.title} style={{ width: '100%' }} />
                     <div className="modal-content__title">
                         <h4>{project.titleModal}</h4>
@@ -71,16 +84,7 @@ function ProjectModal({ isOpen, project, onClose }) {
                             </li>
                         ))}
                     </ul>
-                    <ul className="modal-content__link">Liens du projet :
-                        {project.links.map((link, id) => (
-                            <li key={id} className="modal-content__link-item"> 
-                                <Link to={link.url} target="_blank" rel="noopener noreferrer">
-                                    <img src={link.icon} alt={`Link ${id}`} />
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
-                    <button onClick={onClose}>Fermer</button>
+                    {/* <button className="modal-content__btn" onClick={onClose}>Fermer</button> */}
                 </div>
             )}
         </Modal>

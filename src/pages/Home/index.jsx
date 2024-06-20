@@ -9,10 +9,10 @@ function Home() {
             <section id="bio">
                 <Bio />
             </section>
-            <section id="skills" className="skills">
+            <section className="skills">
                 <Skills />
             </section>
-            <section id="projet" className="projects">
+            <section className="projects">
                 <Projects />
             </section>
             <section id="contact" className="contact">

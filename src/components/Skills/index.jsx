@@ -4,7 +4,7 @@ import data from "../../utils/data/skill.json"
 function Skills() {
     return (
         <>
-        <h2>Skills</h2>
+        {/* <h2>Skills</h2> */}
             <div className="skills_container">      
                 {data.map((data) => {
                     return (
@@ -17,6 +17,7 @@ function Skills() {
                     )
                 })}
             </div>
+            <div id="navProjet"></div>
         </>
     )
 }
