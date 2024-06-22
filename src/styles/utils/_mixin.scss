@@ -11,6 +11,7 @@
 @mixin content-center {
     justify-content: center;
 }
+
 // Combine
 @mixin flex-column {
     @include flex;
@@ -26,6 +27,10 @@
 }
 @mixin flex-item-content {
     @include flex-item;
+    @include content-center;
+}
+@mixin flex-column-item-content {
+    @include flex-column-item;
     @include content-center;
 }
 

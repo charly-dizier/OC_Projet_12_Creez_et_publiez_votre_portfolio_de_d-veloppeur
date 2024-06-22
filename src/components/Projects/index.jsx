@@ -16,7 +16,7 @@ function Projects() {
 
     return (
         <>
-            <h2>Projets du parcours Intégrateur Web</h2>
+            <h2>Principaux projets du parcours Intégrateur Web</h2>
             <div className="projects__cards">
                 {projectsData.map((project) => (
                     <Card 
@@ -30,7 +30,6 @@ function Projects() {
                 <ProjectModal project={selectedProject} onClose={closeModal} />
             )}
         </>
-
     )
 }
 

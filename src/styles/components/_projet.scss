@@ -1,14 +1,10 @@
 .projects {
-    width: 100vw;    
-    background: rgb(0,0,0);
-    background: linear-gradient(23deg, rgba(0,0,0,1) 50%, rgba(0,37,82,1) 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 80px 0px;
-    border: 1px solid rgb(255, 255, 255);
-    gap: 80px;
+    @include flex-column-item;
+    @include gradient-right_top;
+    @include glow-shadows-topInside;
+    width: 100%;
+    padding: 150px 0px;
+    gap: 100px;
     &__cards {
         max-width: 1440px;
         display: grid;

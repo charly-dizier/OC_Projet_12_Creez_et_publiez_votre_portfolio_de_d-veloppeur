@@ -1,15 +1,37 @@
-// Gradiant
-.gradient-background {
-    background: rgb(0,37,82);
-    background: radial-gradient(circle, rgba(0,37,82,0.9976365546218487) 5%, rgba(0,0,0,1) 97%);
-}
-
+// Base couleur
 $primary-blue: rgba(0,37,82,1);
 $grey: rgb(176, 176, 176);
 
+// Gradiant
+@mixin gradient-right_bottom {
+    background: rgb(0,0,0);
+    background: linear-gradient(167deg, rgba(0,0,0,1) 40%, rgba(0,37,82,1) 100%);
+}
+@mixin gradient-right_top {
+    background: rgb(0,0,0);
+    background: linear-gradient(23deg, rgba(0,0,0,1) 50%, rgba(0,37,82,1) 100%);
+}
+
 // Shadow 
 @mixin glow-shadows {
-    background-color: rgba(0,37,82,1);
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 0 0 10px #e7e5e3, 0 0 80px rgba(0,37,82,1), 0 0 50px rgb(26, 99, 209);
+}
+@mixin glow-shadows-topInside {
+    border-top: 1px solid rgb(255, 255, 255);
+    box-shadow: inset 0 10px 10px -10px #e7e5e3, inset 0 50px 50px -50px rgb(26, 99, 209), inset 0 80px 80px -80px rgba(0,37,82,1);
+}
+@mixin glow-shadows-bottomInside {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: inset 0 -10px 10px -10px #e7e5e3, inset 0 -50px 50px -50px rgb(26, 99, 209), inset 0 -80px 80px -80px rgba(0,37,82,1);
+}
+@mixin glow-shadows-background {
+    @include glow-shadows;
+    background-color: $primary-blue;
+}
+
+// Border
+@mixin icon-border {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
 }

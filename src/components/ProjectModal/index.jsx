@@ -12,8 +12,6 @@ const customStyles = {
         transform: 'translate(-50%, -50%)',
         width: '80%',
         maxWidth: '900px',
-        // height: '90%',
-        // maxHeight: '100vw',
         backgroundColor: 'rgba(0,37,82,1)',
         borderRadius: '30px',
         border: '3px solid rgb(255, 255, 255)'
@@ -84,7 +82,6 @@ function ProjectModal({ isOpen, project, onClose }) {
                             </li>
                         ))}
                     </ul>
-                    {/* <button className="modal-content__btn" onClick={onClose}>Fermer</button> */}
                 </div>
             )}
         </Modal>

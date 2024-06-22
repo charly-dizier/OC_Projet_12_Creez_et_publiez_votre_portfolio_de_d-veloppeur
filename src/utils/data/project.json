@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Ohmyfood",
         "image": "./imgs/ohmyfood.webp",
-        "icons": ["./icons/scss.png","./icons/figma.png","./icons/github.png"],
+        "icons": ["./icons/sass.png","./icons/figma.png","./icons/github.png"],
         "links": [
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_4_Ameliorez_l-interface_d-un_site_mobile_avec_des_animations_CSS",
@@ -38,7 +38,7 @@
         "id": 2,
         "title": "Sophie Bluel",
         "image": "./imgs/sophie-bluel.webp",
-        "icons": ["./icons/node.png", "./icons/js.png", "./icons/api.jpg", "./icons/npm.png"],
+        "icons": ["./icons/node2.png", "./icons/js.png", "./icons/api.png", "./icons/npm.png"],
         "links": [
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_6_Creez_une_page_web_dynamique_avec_JavaScript",
@@ -64,7 +64,7 @@
         "id": 3,
         "title": "Kasa",
         "image": "./imgs/kasa.webp",
-        "icons": ["./icons/scss.png", "./icons/js.png", "./icons/react.png"],
+        "icons": ["./icons/sass.png", "./icons/js.png", "./icons/react.png"],
         "links": [
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_8_Creez_une_application_web_de_location_immobiliere_avec_React",
@@ -151,7 +151,7 @@
         "id": 6,
         "title": "Argent Bank",
         "image": "./imgs/argent-bank.webp",
-        "icons": ["./icons/react.png", "./icons/redux.png", "./icons/api.jpg", "./icons/swagger.png"],
+        "icons": ["./icons/react.png", "./icons/redux.png", "./icons/api.png", "./icons/swagger.png"],
         "links": [
             {
                 "url": "https://github.com/charly-dizier/OC_Projet_11_Implementez_le_front-end_d-une_application_bancaire_avec_React",

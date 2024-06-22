@@ -1,12 +1,12 @@
 .bio {
     @include flex-column-item;
+    @include gradient-right_bottom;
     width: 100vw;
     height: 100%;
     gap: 100px;
-    padding: 150px 0px 100px 0px;
-    background: rgb(0,0,0);
-    background: linear-gradient(167deg, rgba(0,0,0,1) 40%, rgba(0,37,82,1) 100%);
-    &_id {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__id {
         @include flex-item-content;
         width: 80%;
         max-width: 1440px;
@@ -23,7 +23,7 @@
                 font-size: 2.7rem;
                 color: $grey;
                 margin-left: 50px;
-                text-decoration: underline 5px rgba(0,37,82,1);
+                text-decoration: underline 5px $primary-blue;
                 text-underline-offset: 7px;
             }
         }
@@ -33,10 +33,10 @@
             }
         }
     }
-    &_txt {
+    &__txt {
         @include flex-column;
         @include glow-shadows;
-        // margin-top: 100px;
+        background-color: $primary-blue;
         max-width: 1000px;
         gap: 20px;
         padding: 80px;

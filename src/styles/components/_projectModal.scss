@@ -20,11 +20,12 @@
             align-items: center;
             margin: 15px 0;
             gap: 10px;
-            text-decoration: underline 2px solid;
+            text-decoration: underline 1px solid;
             text-underline-offset: 5px;
             &--item img {
                 width: 32px;
-                height: 32px;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50%;
             }   
         }
     }
@@ -44,8 +45,9 @@
             gap: 10px;
             margin: 15px 0;
             &--item img {
-                width: 32px;
-                height: 32px;
+                width: 35px;
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 50%;
             }
         }
     }
@@ -66,20 +68,6 @@
             margin-left: 50px;
             font-size: 1rem;
             list-style: disc;
-        }
-    }
-    &__btn {
-
-        @include montserrat-bold;
-        margin: 15px;
-        background-color: $grey;
-        border: 2px solid white;
-        border-radius: 15px;
-        padding: 10px;
-        color: black;
-        font-size: 1.3rem;
-        &:hover {
-            cursor: pointer;
         }
     }
 }
