@@ -15,7 +15,7 @@ function Home() {
             <section className="projects">
                 <Projects />
             </section>
-            <section id="contact" className="contact">
+            <section className="contact">
                 <Contact />
             </section>
         </div>

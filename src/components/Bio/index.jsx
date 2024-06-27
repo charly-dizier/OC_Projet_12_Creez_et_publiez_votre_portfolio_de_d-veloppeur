@@ -1,4 +1,4 @@
-import bio from '../../assets/img/bio.png';
+import bio from '../../assets/img/bio.webp';
 
 function Bio() {
 
@@ -13,7 +13,7 @@ function Bio() {
                     <img src={bio} alt="portai"></img>
                 </div>
             </div>
-            <h2>Bienvenue sur mon portfolio</h2>
+            <h2 className="bio__section-title">Bienvenue sur mon portfolio</h2>
             <div className="bio__txt">
                 <p>Après plus de dix ans de vie professionnel dans le secteur de la vente, j'ai décidé qu'il était temps pour moi d'explorer de nouveau horizons.</p>
                 <p>Gravitant dans le monde de l'informatique, à titre personnel et ludique depuis mon enfance, j'ai entrepris de transformer cette passion en carrière professionnel en me reconvertissant dans le développement web.</p>

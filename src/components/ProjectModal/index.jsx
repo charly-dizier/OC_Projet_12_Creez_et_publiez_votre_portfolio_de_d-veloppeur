@@ -10,14 +10,14 @@ const customStyles = {
         bottom: 'auto',
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
-        width: '80%',
-        maxWidth: '900px',
-        backgroundColor: 'rgba(0,37,82,1)',
         borderRadius: '30px',
-        border: '3px solid rgb(255, 255, 255)'
+        border: '3px solid rgb(255, 255, 255)',
+        padding: '0px',
+        margin: '0px'
     },
     overlay: {
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        zIndex: '20'
     }
 };
 
@@ -46,7 +46,7 @@ function ProjectModal({ isOpen, project, onClose }) {
                 <div className="modal-content" onClick={onClose}>
                     <div className="modal-content__header">
                         <h3 className="modal-content__header-title">{project.title}</h3>
-                        <ul className="modal-content__header-link">Liens du projet :
+                        <ul className="modal-content__header-link">Liens
                             {project.links.map((link, id) => (
                                 <li key={id} className="modal-content__header-link--item"> 
                                     <Link to={link.url} target="_blank" rel="noopener noreferrer">
@@ -56,7 +56,7 @@ function ProjectModal({ isOpen, project, onClose }) {
                             ))}
                         </ul>
                     </div>
-                    <img src={project.image} alt={project.title} style={{ width: '100%' }} />
+                    <img className="modal-content__img" src={project.image_modal} alt={project.title} />
                     <div className="modal-content__title">
                         <h4>{project.titleModal}</h4>
                         <ul className="modal-content__title-icon">

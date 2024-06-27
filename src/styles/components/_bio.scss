@@ -1,36 +1,91 @@
 .bio {
     @include flex-column-item;
     @include gradient-right_bottom;
-    width: 100vw;
-    height: 100%;
+    width: 100%;
     gap: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0px;
+    @include bp-1000 {
+        gap: 50px
+    }
+    @include bp-500 {
+        gap: 30px;
+        padding-bottom: 30px;
+    }
     &__id {
         @include flex-item-content;
-        width: 80%;
+        justify-content: space-between;
+        width: 90%;
         max-width: 1440px;
+        margin-top: 50px;
+        @include bp-1150 {
+            gap: 50px;
+            flex-direction: column;
+        }
+        @include bp-500 {
+            gap: 30px;
+            margin-top: 0px
+        }
         &-title {
             @include flex-column;
+            @include bp-1000 {
+                align-items: center;
+            }
             & h1{
-                @include lilita-one;
-                color: white;
-                font-size: 7rem;
+                @include bungee;
+                text-align: center;
+                font-size: 5rem;
                 text-shadow: 7px 5px 15px #e7e5e3, 7px 5px 50px rgb(0, 83, 184), 7px 5px 50px rgb(44, 174, 255);
+                line-height: 6rem;
+                margin-bottom: 1rem;
+                @include bp-1000 {
+                    font-size: 4rem;
+                    line-height: 4rem;
+                    margin-top: 40px;
+                }
+                @include bp-600 {
+                    font-size: 3.3rem;
+                }
+                @include bp-500 {
+                    font-size: 3rem;
+                    line-height: 3rem;
+                }
             }
             & h2 {
-                @include montserrat-bold;
-                font-size: 2.7rem;
+                @include bungee;
+                font-size: 2.3rem;
                 color: $grey;
-                margin-left: 50px;
+                margin-left: 70px;
+                width: max-content;
                 text-decoration: underline 5px $primary-blue;
                 text-underline-offset: 7px;
+                line-height: 2.3rem;
+                @include bp-1000 {
+                    font-size: 2rem;
+                    margin: 0px;
+                }
+                @include bp-500 {
+                    font-size: 1.5rem;
+                    line-height: 1.5rem;
+                }
             }
         }
         &-img {
+            @include flex-item;
             & img {
                 height: 400px;
+                @include bp-1000 {
+                    height: 300px;
+                }
+                @include bp-500 {
+                    height: 200px;
+                }
             }
+        }
+    }
+    &__section-title {
+        text-align: center;
+        @include bp-500 {
+            margin: 0 2rem;
         }
     }
     &__txt {
@@ -40,11 +95,27 @@
         max-width: 1000px;
         gap: 20px;
         padding: 80px;
+        margin: 0 5rem;
         border-radius: 20px;
+        @include bp-1000 {
+            padding: 50px;
+        }
+        @include bp-500 {
+            padding: 30px;
+            gap: 10px;
+            line-height: 1.2rem;
+            margin: 0 2rem;
+        }
         & p {
             @include montserrat-regular;
             color: $grey;
             font-size: 1.4rem;
+            @include bp-1000 {
+                font-size: 1.2rem;
+            }
+            @include bp-500 {
+                font-size: 1rem;
+            }
         }
     }
 }

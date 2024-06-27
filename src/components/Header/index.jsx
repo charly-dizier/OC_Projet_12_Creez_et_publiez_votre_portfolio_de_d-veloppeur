@@ -7,7 +7,7 @@ function Header() {
             <div className="header-container">
                 <div className="header_logo">
                     <NavLink className='header_logo-link' smooth to="/#home">
-                        <p>Charly Dizier</p>
+                        <p>&lt; Charly Dizier /&gt;</p>
                     </NavLink>
                 </div>
                 <nav className="header_nav">
@@ -20,7 +20,7 @@ function Header() {
                     <NavLink className="header_nav-link" smooth to="/#navProjet">
                         <p>Projet</p>
                     </NavLink>
-                    <NavLink className="header_nav-link" smooth to="/#contact">
+                    <NavLink className="header_nav-link" smooth to="/#navContact">
                         <p>Contact</p>
                     </NavLink>
                 </nav>

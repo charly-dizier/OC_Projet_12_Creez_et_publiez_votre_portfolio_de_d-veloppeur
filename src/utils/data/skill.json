@@ -2,61 +2,61 @@
     {
         "id": 1,
         "title": "HTML",
-        "icon": "./icons/html.png"
+        "icon": "./icons/html.webp"
     },
     {
         "id": 2,
         "title": "CSS",
-        "icon": "./icons/css.png"
+        "icon": "./icons/css.webp"
     },
     {
         "id": 3,
         "title": "Sass",
-        "icon": "./icons/sass.png"
+        "icon": "./icons/sass.webp"
     },
     {
         "id": 4,
         "title": "JS",
-        "icon": "./icons/js.png"
+        "icon": "./icons/js.webp"
     },
     {
         "id": 5,
         "title": "React",
-        "icon": "./icons/react.png"
+        "icon": "./icons/react.webp"
     },
     {
         "id": 6,
         "title": "Redux",
-        "icon": "./icons/redux.png"
+        "icon": "./icons/redux.webp"
     },
     {
         "id": 7,
         "title": "Devtools",
-        "icon": "./icons/react-devtools.png"
+        "icon": "./icons/react-devtools.webp"
     },
     {
         "id": 8,
         "title": "Jest",
-        "icon": "./icons/jest.png"
+        "icon": "./icons/jest.webp"
     },
     {
         "id": 9,
         "title": "Figma",
-        "icon": "./icons/figma.png"
+        "icon": "./icons/figma.webp"
     },
     {
         "id": 10,
         "title": "Github",
-        "icon": "./icons/github.png"
+        "icon": "./icons/github.webp"
     },
     {
         "id": 11,
         "title": "SEO",
-        "icon": "./icons/seo.png"
+        "icon": "./icons/seo.webp"
     },
     {
         "id": 12,
         "title": "Agile",
-        "icon": "./icons/agile.png"
+        "icon": "./icons/agile.webp"
     }
 ]

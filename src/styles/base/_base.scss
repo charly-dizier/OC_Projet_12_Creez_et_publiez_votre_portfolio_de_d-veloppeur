@@ -10,6 +10,12 @@
     & h2 {
         @include montserrat-bold;
         font-size: 3rem;
+        @include bp-1000 {
+            font-size: 2rem;
+        }
+        @include bp-500 {
+            font-size: 1.5rem;
+        }
     }
     & h3 {
         @include montserrat-bold;

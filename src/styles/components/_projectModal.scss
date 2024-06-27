@@ -1,73 +1,127 @@
 .modal-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-column-item;
     background-color: $primary-blue;
-    border-radius: 25px;
     gap: 10px;
-    margin: 0 20px;
+    width: 80vw;
+    max-width: 1200px;
+    max-height: 90vh;
+    padding: 20px 30px;
+    overflow-y: auto;
+    @include bp-600 {
+        padding: 15px 20px;
+        width: 90vw;
+    }
     &__header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        @include flex-item-between;
         width: 100%;
         &-title {
             font-size: 3rem;
+            @include bp-1000 {
+                font-size: 2.5rem;
+            }
+            @include bp-600 {
+                font-size: 1.8rem;
+            }
         }
         &-link {
+            @include flex-item;
             @include montserrat-regular;
-            display: flex;
-            align-items: center;
             margin: 15px 0;
             gap: 10px;
             text-decoration: underline 1px solid;
             text-underline-offset: 5px;
+            @include bp-600 {
+                gap: 5px;
+                margin: 5px 0px;
+                font-size: .8rem;
+            }
             &--item img {
                 width: 32px;
                 border: 1px solid rgb(255, 255, 255);
                 border-radius: 50%;
+                @include bp-600 {
+                    width: 25px;
+                }
             }   
         }
     }
+    &__img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        object-position: top left;
+        @include bp-1000 {
+            max-height: 150px;
+        }
+        @include bp-600 {
+            max-height: 100px;
+        }
+    }
     &__title {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        @include flex-item-between;
         width: 100%;
         & h4 {
             font-size: 1.7rem;
             text-decoration: underline 1px solid;
             text-underline-offset: 5px;
+            @include bp-1000 {
+                font-size: 1.5rem;
+            }
+            @include bp-600 {
+                font-size: 1.1rem;
+            }
         }
         &-icon {
-            display: flex;
-            justify-content: center;
+            @include flex-content;
             gap: 10px;
             margin: 15px 0;
+            @include bp-600 {
+                gap: 5px;
+                margin: 10px 0px;
+            }
             &--item img {
                 width: 35px;
                 border: 1px solid rgb(255, 255, 255);
                 border-radius: 50%;
+                @include bp-600 {
+                    width: 25px
+                }
             }
         }
     }
     &__description {
         @include montserrat-regular;
         font-size: 1.2rem;
+        @include bp-1000 {
+            font-size: 1rem;
+        }
+        @include bp-600 {
+            font-size: .8rem
+        }
     }
     &__missions, &__objectif {
+        @include flex-column;
         @include montserrat-bold;
         font-size: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+        gap: 10px;
         width: 100%;
         margin-top: 20px;
+        @include bp-1000 {
+            font-size: 1.3rem;
+        }
+        @include bp-600 {
+            font-size: 1rem;
+            gap: 5px
+        }
         & li {
             @include montserrat-regular;
-            margin-left: 50px;
+            margin-left: 5%;
             font-size: 1rem;
             list-style: disc;
+            line-height: 1rem;
+            @include bp-600 {
+                font-size: .8rem;
+            }
         }
     }
 }
