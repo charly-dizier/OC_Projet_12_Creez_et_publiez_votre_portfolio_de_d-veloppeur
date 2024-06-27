@@ -1,4 +1,42 @@
 .error {
+    @include gradient-right_top;
+    @include montserrat-bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-height: 85vh;
     height: 100%;
-    padding-top: 50px;
+    padding-top: 250px;
+    gap: 100px;
+    &__title {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        &--num {
+            @include bungee;
+            text-shadow: 7px 5px 15px #e7e5e3, 7px 5px 50px rgb(0, 83, 184), 7px 5px 50px rgb(44, 174, 255);
+            font-size: 7rem;
+            line-height: 7rem
+        }
+        &--txt {
+            @include bungee;
+            text-shadow: 7px 5px 15px #e7e5e3, 7px 5px 50px rgb(0, 83, 184), 7px 5px 50px rgb(44, 174, 255);
+            font-size: 3rem;
+            line-height: 3rem;
+        }
+    }
+    &__desc {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        &--txt {
+            font-size: 2rem;
+        }
+        &--link {
+            font-size: 2rem;
+            text-decoration: underline 5px $primary-blue;
+            text-underline-offset: 7px;
+        }
+    }
 }

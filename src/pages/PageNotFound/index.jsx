@@ -2,12 +2,18 @@ import { Link } from "react-router-dom"
 
 function PageNotFound() {
     return (
-        <div className="error">
-            <p>Erreur la page n'existe pas</p>
-            <Link to="/">
-                <p>Retour à l'acceuil</p>
-            </Link>
-        </div>
+        <section className="error">
+            <div className="error__title">
+                <p className="error__title--num">404</p>
+                <p className="error__title--txt">ERROR</p>
+            </div>
+            <div className="error__desc">
+                <p className="error__desc--txt">La page que vous cherchez n'existe pas !</p>
+                <Link to="/" className="error__desc--link">
+                    <p>Retour à l'acceuil</p>
+                </Link>   
+            </div>
+        </section>
     )
 }
 
