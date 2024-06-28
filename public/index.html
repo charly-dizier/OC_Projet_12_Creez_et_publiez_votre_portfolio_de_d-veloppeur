@@ -28,35 +28,36 @@
 
     <!--Rich Snippet-->
 	  <script type="application/ld+json">
-		  {
-			  "@context": "https://schema.org",
-			  "@type": "ProfessionalService",
-			  "name": "Charly Dizier",
-			  "image": "https://charly-dizier.com/static/media/bio.96dbbea6fe055475ec49.webp",
-			  "address": {
-				  "@type": "PostalAddress",
-				  "streetAddress": "Les Masters, 373 Allées des Clubs",
-				  "addressLocality": "Mandelieu la Napoule",
-				  "postalCode": "06210",
-				  "addressCountry": "France"
-			  },
-			  "url": "https://charly-dizier.com",
-			  "telephone": "07 68 07 49 01",
-			  "openingHoursSpecification": {
-				  "@type": "OpeningHoursSpecification",
-				  "dayOfWeek": [
-					  "Monday",
-					  "Tuesday",
-					  "Wednesday",
-					  "Thursday",
-					  "Friday"
-				  ],
-				  "opens": "10:00",
-				  "closes": "19:00"
-			  },
-		  }
-	  </script>
-
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Charly Dizier",
+        "image": "https://charly-dizier.com/static/media/bio.96dbbea6fe055475ec49.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Les Masters, 373 Allées des Clubs",
+          "addressLocality": "Mandelieu la Napoule",
+          "postalCode": "06210",
+          "addressCountry": "FR"
+        },
+        "url": "https://charly-dizier.com",
+        "telephone": "+33 7 68 07 49 01",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "http://schema.org/Monday",
+              "http://schema.org/Tuesday",
+              "http://schema.org/Wednesday",
+              "http://schema.org/Thursday",
+              "http://schema.org/Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ]
+      }
+    </script>
 
     <!--
       manifest.json provides metadata used when your web app is installed on a
