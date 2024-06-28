@@ -4,7 +4,7 @@ function Header() {
 
     return (
         <header className="header">
-            <div className="header-container">
+            <section className="header-container">
                 <div className="header_logo">
                     <NavLink className='header_logo-link' smooth to="/#home">
                         <p>&lt; Charly Dizier /&gt;</p>
@@ -24,7 +24,7 @@ function Header() {
                         <p>Contact</p>
                     </NavLink>
                 </nav>
-            </div>
+            </section>
         </header>
     )
 }
