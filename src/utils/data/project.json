@@ -19,15 +19,15 @@
                 "icon": "./icons/figma.webp"
             }
         ],
-        "description": "Améliorez l'interface d'un site mobile avec des animations CSS.",
-        "titleModal": "Projet n°4 du parcour Intégrateur Web",
-        "descriptionModal": "Pour le scénario de se projet nous étions concidéré comme développeur junior intégrant Ohmyfood une startup souhaitant s'imposer sur le marché de la restauration.",
+        "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
+        "titleModal": "Projet n°4 du parcours Intégrateur Web",
+        "descriptionModal": "Pour le scénario de ce projet, nous étions considérés comme développeur junior intégrant Ohmyfood une start-up souhaitant s'imposer sur le marché de la restauration",
         "missionsModal": [
-            "Développer un site responsive, mobile first, en respectant scrupuleusement un disign donné.",
+            "Développer un site responsif, mobile first, en respectant scrupuleusement un design donné",
             "Familiarisation avec l'environnement Git et GitHub",
-            "Analyse de maquettes sur Figma.",
-            "Mise en place et utilisation du pré-processeur Sass.",
-            "Ajout d'animation modèrne. Enrichissement de l'expérience utilisateur."
+            "Analyse de maquettes sur Figma",
+            "Mise en place et utilisation du préprocesseur Sass",
+            "Ajout d'animation moderne. Enrichissement de l'expérience utilisateur"
         ],
         "objectifModal": [
             "Intégrer une maquette en mobile-first",
@@ -47,13 +47,13 @@
                 "icon": "./icons/github.webp"
             }
         ],
-        "description": "Créez une page web dynamique avec JavaScript.",
-        "titleModal": "Projet n°6 du parcour Intégrateur Web",
-        "descriptionModal": "Pour ce scénario, nous somme concidéré comme développeut front-end pour l'agence ArchiWebos et travaillant sur le portfolio d'une architecte.",
+        "description": "Créez une page web dynamique avec JavaScript",
+        "titleModal": "Projet n°6 du parcours Intégrateur Web",
+        "descriptionModal": "Pour ce scénario, nous étions considérés comme développeur front-end pour l'agence ArchiWebos et travaillant sur le portfolio d'une architecte",
         "missionsModal": [
-            "Création d'une page web dynamique en utilisant JavaScript et en communiquant avec une API",
+            "Création d'une page web dynamique en utilisant Javascript et en communiquant avec une API",
             "Gestion des événements utilisateur et manipulation du DOM",
-            "Création d'une page de connection administrateur donnant acces a des outils de gestion afin de supprimer, modifier ou ajouter de nouveaux projet via des modales",
+            "Création d'une page de connexion administrateur donnant accès a des outils de gestion afin de supprimer, modifier ou ajouter de nouveaux projets via des modales",
             "Développer from scratch afin de mettre en pratique nos compétences en JavaScript de manière approfondie"
         ],
         "objectifModal": [
@@ -78,15 +78,15 @@
                 "icon": "./icons/figma.webp"
             }
         ],
-        "description": "Créez une application web de location immobilière avec React.",
-        "titleModal": "Projet n°8 du parcour Intégrateur Web",
-        "descriptionModal": "Pour le scénario de ce projet, nous étions concidéré comme développeur front-end en freelance pour Kasa, une entreprise de location d'appartement entre particuliers.",
+        "description": "Créez une application web de location immobilière avec React",
+        "titleModal": "Projet n°8 du parcours Intégrateur Web",
+        "descriptionModal": "Pour le scénario de ce projet, nous étions considérés comme développeur front-end en freelance pour Kasa, une entreprise de location d'appartements entre particuliers",
         "missionsModal": [
             "Refonte complète d'un site codé il y a plus de 10 ans en ASP.NET avec code legacy important",
             "Initialisez le projet avec Creat React App",
             "Découpez la maquette Figma (responsive) en composant React",
             "Mettre en place le système de route avec React Router",
-            "Ajoutez des animations modèrne sur les menus Dropdown"
+            "Ajoutez des animations modernes sur les menus Dropdown"
         ],
         "objectifModal": [
             "Développer une interface web avec Sass",
@@ -112,15 +112,15 @@
                 "icon": "./icons/lien.webp"
             }
         ],
-        "description": "Optimisez le référencement d'un site de photographe.",
-        "titleModal": "Projet n°9 du parcour Intégrateur Web",
-        "descriptionModal": "Pour le scénario de se projet, nous étions concidéré comme développeur freelance proposant nos services d'optimisation à une photographe.",
+        "description": "Optimisez le référencement d'un site de photographe",
+        "titleModal": "Projet n°9 du parcours Intégrateur Web",
+        "descriptionModal": "Pour le scénario de ce projet, nous étions considérés comme développeur freelance proposant nos services d'optimisation à une photographe",
         "missionsModal": [
-            "Réaliser un audit du site avec Lighthouse et GTMetrix.\nDéceler les différents problèmes de chargement et référencement.\nIdentifier les axes d’amélioration.",
-            "Travail d'optimisation sur les images, la sémantique et la compression des fichier CSS et JS",
-            "Mise en place du référencement local et réseaux sociaux à la demande de la cliente.\nRapport Rich Snippet (microdonnées au format Schema.org).\nBalises meta liées aux principaux réseaux sociaux (OpenGraph pour facebook, Twitter Cards)",
-            "Correction de l'accessibilité en utilisant l'extension WAVE Evaluation Tool.",
-            "Rédaction d'un rapport d'optimisation listant et décrivant les résultat avant et apres optimisation."
+            "Réaliser un audit du site avec Lighthouse et GTMetrix\nDéceler les différents problèmes de chargement et référencement\nIdentifier les axes d’amélioration",
+            "Travail d'optimisation sur les images, la sémantique et la compression des fichiers CSS et JS",
+            "Mise en place du référencement local et réseaux sociaux à la demande de la cliente\nRapport Rich Snippet (micro données au format Schema.org)\nBalises meta liées aux principaux réseaux sociaux (OpenGraph pour facebook, Twitter Cards)",
+            "Correction de l'accessibilité en utilisant l'extension WAVE Evaluation Tool",
+            "Rédaction d'un rapport d'optimisation listant et décrivant les résultats avant et après optimisation"
         ],
         "objectifModal": [
             "Optimiser la performance et le référencement d'un site web"
@@ -138,13 +138,13 @@
                 "icon": "./icons/github.webp"
             }
         ],
-        "description": "Débuggez le site d'une agence d'événementiel.",
-        "titleModal": "Projet n°10 du parcour Intégrateur Web",
-        "descriptionModal": "Pour le scénario de se projet, 724Events une agence d'évenementielle, nous contactais afin de reprendre la refonte de leur site vitrine.\nLe précédent développeur ayant abandonner le projet, un certain nombre de bug persiste",
+        "description": "Débuggez le site d'une agence d'événementiel",
+        "titleModal": "Projet n°10 du parcours Intégrateur Web",
+        "descriptionModal": "Pour le scénario de ce projet, 724Events une agence d'événementielle, nous contactais afin de reprendre la refonte de leur site vitrine\nLe précédent développeur ayant abandonné le projet, un certain nombre de bugs persiste",
         "missionsModal": [
-            "Analyse du code avec Chrome DevTools afin d'identifier et compredre les problèmes et bugs",
-            "Résoudre les différentes erreurs en utilisant nos compétences en JavaScript, ainsi que des outils spécifique à React tel que React Developper Tools",
-            "Rédiger un cahier de recette détaillant les scénarios des tests unitaires et fonctionnels assurant le bon fonctionnnement du site",
+            "Analyse du code avec Chrome DevTools afin d'identifier et comprendre les problèmes et bugs",
+            "Résoudre les différentes erreurs en utilisant nos compétences en JavaScript, ainsi que des outils spécifiques à React tel que React Developper Tools",
+            "Rédiger un cahier de recette détaillant les scénarios des tests unitaires et fonctionnels assurant le bon fonctionnement du site",
             "Création de tests unitaire et fonctionnels en utilisant l'environnement et la syntaxe Jest"
         ],
         "objectifModal": [
@@ -164,14 +164,14 @@
                 "icon": "./icons/github.webp"
             }
         ],
-        "description": "Implémentez le front-end d'une application bancaire avec React.",
-        "titleModal": "Projet n°11 du parcour Intégrateur Web",
-        "descriptionModal": "Pour le scénario de se projet, nous étions concidéré comme développeur intégrant Argent Bank, une nouvelle banque en ligne",
+        "description": "Implémentez le front-end d'une application bancaire avec React",
+        "titleModal": "Projet n°11 du parcours Intégrateur Web",
+        "descriptionModal": "Pour le scénario de ce projet, nous étions considérés comme développeur intégrant Argent Bank, une nouvelle banque en ligne",
         "missionsModal": [
             "Installez localement le back-end de l'application avec Node.js et MongoDB",
             "Découpez le HTML et CSS statique fournit et transposez le en une application React et Sass",
-            "Mettez en place le state global avec Redux et la connection de l'utilisateur",
-            "Phase 2: Analysez les images de la maquettes afin de déterminer les futures routes API et écrivez les différents endpoints dans un fichier Swagger"
+            "Mettez en place le state global avec Redux et la connexion de l'utilisateur",
+            "Phase 2: Analysez les images de la maquette afin de déterminer les futures routes API et écrivez les différents endpoints dans un fichier Swagger"
         ],
         "objectifModal": [
             "Afficher les données du back end sur l'interface via des appels API",

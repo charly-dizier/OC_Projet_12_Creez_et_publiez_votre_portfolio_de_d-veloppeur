@@ -10,7 +10,7 @@ function PageNotFound() {
             <div className="error__desc">
                 <p className="error__desc--txt">La page que vous cherchez n'existe pas !</p>
                 <Link to="/" className="error__desc--link">
-                    <p>Retour à l'acceuil</p>
+                    <p>Retour à l'accueil</p>
                 </Link>   
             </div>
         </main>
