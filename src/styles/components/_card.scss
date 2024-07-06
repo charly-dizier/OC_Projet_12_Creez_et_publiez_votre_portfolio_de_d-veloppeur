@@ -3,7 +3,7 @@
     background-color: $primary-blue;
     max-width: 430px;
     width: 100%;
-    border: 1px solid white;
+    border: 1px solid $white;
     border-radius: 20px;
     transition: transform .2s;
     @include bp-1400 {

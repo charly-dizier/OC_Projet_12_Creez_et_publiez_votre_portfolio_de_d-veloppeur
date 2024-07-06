@@ -13,8 +13,8 @@
         gap: 15px;
         & input, textarea {
             @include montserrat-regular;
-            background-color: white;
-            color: black;
+            background-color: $white;
+            color: $black;
             padding: 10px;
             border-radius: 10px;
             font-size: 1.2rem;
@@ -32,16 +32,16 @@
             font-size: 1.2rem;
             padding: 10px 15px;
             border-radius: 10px;
-            color: black;
+            color: $black;
             width: max-content;
-            border: 1px solid white;
+            border: 1px solid $white;
             transition: transform .2s;
             @include bp-600 {
                 font-size: 1rem;
             }
             &:hover {
                 @include glow-shadows-background;
-                color: white;
+                color: $white;
                 transform: scale(1.1);
             }
         }

@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    color: white;
+    color: $white;
     & h2 {
         @include montserrat-bold;
         font-size: 3rem;

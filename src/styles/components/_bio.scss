@@ -32,9 +32,9 @@
             }
             & h1{
                 @include bungee;
+                @include text-shadow;
                 text-align: center;
                 font-size: 5rem;
-                text-shadow: 7px 5px 15px #e7e5e3, 7px 5px 50px rgb(0, 83, 184), 7px 5px 50px rgb(44, 174, 255);
                 line-height: 6rem;
                 margin-bottom: 1rem;
                 @include bp-1000 {

@@ -63,11 +63,6 @@
         @content;
     }
 }
-@mixin bp-755 {
-    @media screen and (max-width: 755px) {
-        @content;
-    }
-}
 @mixin bp-600 {
     @media screen and (max-width: 600px) {
         @content;
@@ -75,11 +70,6 @@
 }
 @mixin bp-500 {
     @media screen and (max-width: 500px) {
-        @content;
-    }
-}
-@mixin bp-400 {
-    @media screen and (max-width: 400px) {
         @content;
     }
 }

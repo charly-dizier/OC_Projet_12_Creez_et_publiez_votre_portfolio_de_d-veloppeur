@@ -1,41 +1,52 @@
 // Base couleur
 $primary-blue: rgba(0,37,82,1);
 $grey: rgb(176, 176, 176);
+$white: rgb(255, 255, 255);
+$black: rgb(0,0,0);
+$shadow-white: #e7e5e3;
+$shadow-lightBlue: rgb(26, 99, 209);
 
 // Gradiant
 @mixin gradient-right_bottom {
-    background: rgb(0,0,0);
-    background: linear-gradient(167deg, rgba(0,0,0,1) 40%, rgba(0,37,82,1) 100%);
+    background: $black;
+    background: linear-gradient(167deg, $black 40%, $primary-blue 100%);
 }
 @mixin gradient-right_top {
-    background: rgb(0,0,0);
-    background: linear-gradient(23deg, rgba(0,0,0,1) 50%, rgba(0,37,82,1) 100%);
+    background: $black;
+    background: linear-gradient(23deg, $black 50%, $primary-blue 100%);
 }
 @mixin gradient-left_bottom {
-    background: rgb(0,0,0);
-    background: linear-gradient(194deg, rgba(0,0,0,1) 40%, rgba(0,37,82,1) 100%);
+    background: $black;
+    background: linear-gradient(194deg, $black 40%, $primary-blue 100%);
 }
 
 // Shadow 
 @mixin glow-shadows {
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0 0 10px #e7e5e3, 0 0 80px rgba(0,37,82,1), 0 0 50px rgb(26, 99, 209);
+    border: 1px solid $white;
+    box-shadow: 0 0 10px $shadow-white, 0 0 80px $primary-blue, 0 0 50px $shadow-lightBlue;
 }
 @mixin glow-shadows-topInside {
-    border-top: 1px solid rgb(255, 255, 255);
-    box-shadow: inset 0 10px 10px -10px #e7e5e3, inset 0 50px 50px -50px rgb(26, 99, 209), inset 0 80px 80px -80px rgba(0,37,82,1);
+    border-top: 1px solid $white;
+    box-shadow: inset 0 10px 10px -10px $shadow-white, inset 0 50px 50px -50px $shadow-lightBlue, inset 0 80px 80px -80px $primary-blue;
+}
+@mixin glow-shadows-bottom {
+    border-bottom: 1px solid $white;
+    box-shadow: 0 0 10px $shadow-white, 0 0 80px $primary-blue, 0 0 50px $shadow-lightBlue;
 }
 @mixin glow-shadows-bottomInside {
-    border-bottom: 1px solid rgb(255, 255, 255);
-    box-shadow: inset 0 -10px 10px -10px #e7e5e3, inset 0 -50px 50px -50px rgb(26, 99, 209), inset 0 -80px 80px -80px rgba(0,37,82,1);
+    border-bottom: 1px solid $white;
+    box-shadow: inset 0 -10px 10px -10px $shadow-white, inset 0 -50px 50px -50px $shadow-lightBlue, inset 0 -80px 80px -80px $primary-blue;
 }
 @mixin glow-shadows-background {
     @include glow-shadows;
     background-color: $primary-blue;
 }
+@mixin text-shadow {
+    text-shadow: 7px 5px 15px $shadow-white, 7px 5px 50px rgb(0, 83, 184), 7px 5px 50px rgb(44, 174, 255);
+}
 
 // Border
 @mixin icon-border {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid $white;
     border-radius: 50%;
 }

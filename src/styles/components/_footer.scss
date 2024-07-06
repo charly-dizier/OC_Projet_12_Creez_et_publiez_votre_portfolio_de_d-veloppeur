@@ -3,12 +3,12 @@
     width: 100%;
     padding: 40px;
     gap: 20px;
-    background-color: black;
+    background-color: $black;
     &_icon {
         @include flex;
         gap: 20px;
         & img {
-            border: 1px solid rgb(255, 255, 255);
+            border: 1px solid $white;
             border-radius: 50%;
             width: 50px;
             &:hover {

@@ -1,10 +1,9 @@
-.header { 
+.header {
+    @include glow-shadows-bottom;
     z-index: 10;
     position: fixed;
     width: 100%;
-    background-color: black;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    box-shadow: 0 0 10px #e7e5e3, 0 0 80px rgba(0,37,82,1), 0 0 50px rgb(26, 99, 209);
+    background-color: $black;
     &-container {
         @include flex-item;
         justify-content: space-between;
@@ -42,7 +41,7 @@
         &-link {
             @include montserrat-regular;
             font-size: 1.5rem;
-            border: 1px solid black;
+            border: 1px solid $black;
             padding: 5px 10px;
             border-radius: 15px;
             transition: background .2s, box-shadow .3s ease-in-out;
