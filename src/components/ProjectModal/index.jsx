@@ -21,13 +21,18 @@ const customStyles = {
     }
 };
 
+// Définition de l'élément racine pour l'accessibilité de la modal
 Modal.setAppElement('#root');
 
 function ProjectModal({ isOpen, project, onClose }) {
 
-    // Fonction pour convertir les \n en <br /> du fichier json
+    // Fonction pour convertir les sauts de ligne (\n) du fichier JSON, en éléments <br /> dans le texte
     const formatDescription = (text) => {
+        // split divise 'text' en un tableau de sous-chaînes en utilisant ('\n') comme séparateur.
+        // puis on map chaque éléments du tableau afin de leurs attribuer individuellemnt deux arguments.
+        // 'line' = la sous-chaîne actuelle et 'index' = l'index de la sous-chaîne dans le tableau.
         return text.split('\n').map((line, index) => (
+            // React.Fragment est un conteneur léger qui ne produit pas d'éléments DOM supplémentaires.
             <React.Fragment key={index}>
                 {line}
                 <br />
@@ -37,11 +42,12 @@ function ProjectModal({ isOpen, project, onClose }) {
 
     return (
         <Modal
-            isOpen={!!project}
-            onRequestClose={onClose}
-            style={customStyles}
-            contentLabel="Détails du projet"  
+            isOpen={!!project} // La modal est ouvert si un projet est sélectionné
+            onRequestClose={onClose} // Fonction appelée pour fermer l amodal
+            style={customStyles} // Styles personnalisés de la modal
+            contentLabel="Détails du projet" // Label pour l'accessibilité
         >
+            {/* Rendu conditionnel qui s'assure que project est bien défini */}
             {project && (
                 <div className="modal-content" onClick={onClose}>
                     <div className="modal-content__header">

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    // Définition du state initial de formData 
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -9,6 +10,7 @@ const Contact = () => {
         message: ''
     });
 
+    // Fonction de gestion et mise a jour des changements dans les champs du formulaire
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -17,9 +19,11 @@ const Contact = () => {
         });
     };
 
+    // Fonction d'envoie de l'email
     const sendEmail = (e) => {
         e.preventDefault();
 
+        // Utilisation de la méthode sendForm de emailjs pour envoyer l'email
         emailjs.sendForm('service_45eeufe', 'template_92ryvph', e.target, '-oXeP4kxZ3ngf7PM6')
             .then((result) => {
                 console.log(result.text);
@@ -29,6 +33,7 @@ const Contact = () => {
                 alert('Erreur lors de l\'envoi du message. Veuillez réessayer.');
             });
 
+        // Réinitialisation des champs après envoie
         setFormData({
             name: '',
             email: '',

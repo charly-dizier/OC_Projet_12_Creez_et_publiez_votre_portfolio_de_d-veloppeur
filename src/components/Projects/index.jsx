@@ -4,12 +4,16 @@ import { useState } from "react"
 import ProjectModal from "../ProjectModal";
 
 function Projects() {
+
+    // Declaration du state de selectedProject
     const [selectedProject, setSelectedProject] = useState(null);
 
+    // Fonction d'ouverture de la modal et mise a jour du state
     const openModal = (project) => {
         setSelectedProject(project);
     };
 
+    // Fonction de fermeture de la modal et réinitialisation su state
     const closeModal = () => {
         setSelectedProject(null);
     };
@@ -26,6 +30,9 @@ function Projects() {
                     />
                 ))}
             </div>
+            {/* Rendu conditionnel du composant ProjectModal. 
+            On s'assure qu'un projet a bien été selectionné avant d'ouvrir la modal, 
+            puis on lui passe le projet selectionné en props ainsi que la fonction de fermeture. */}
             {selectedProject && (
                 <ProjectModal project={selectedProject} onClose={closeModal} />
             )}
