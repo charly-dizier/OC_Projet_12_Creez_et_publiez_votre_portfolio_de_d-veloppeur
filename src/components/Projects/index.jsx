@@ -1,7 +1,7 @@
-import Card from "../Card"
-import projectsData from "../../utils/data/project.json"
 import { useState } from "react"
+import Card from "../Card"
 import ProjectModal from "../ProjectModal";
+import projectsData from "../../utils/data/project.json"
 
 function Projects() {
 

@@ -11,7 +11,6 @@ function Skills() {
                             key={data.id}
                             title={data.title}
                             icon={data.icon}
-                            alt={data.alt} 
                         />
                     )
                 })}
