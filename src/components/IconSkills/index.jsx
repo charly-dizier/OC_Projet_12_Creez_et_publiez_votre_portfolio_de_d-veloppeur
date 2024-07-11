@@ -1,4 +1,4 @@
-function IconSkills({ title, alt, icon}) {
+function IconSkills({ title, icon}) {
 
     return (
         <div className="skills_icon">
