@@ -24,7 +24,7 @@ const customStyles = {
 // Définition de l'élément racine pour l'accessibilité de la modal
 Modal.setAppElement('#root');
 
-function ProjectModal({ isOpen, project, onClose }) {
+function ProjectModal({ project, onClose }) {
 
     // Fonction pour convertir les sauts de ligne (\n) du fichier JSON, en éléments <br /> dans le texte
     const formatDescription = (text) => {
